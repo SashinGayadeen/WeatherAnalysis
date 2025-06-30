@@ -11,7 +11,7 @@ This data pipeline outlines how data is ingested from an external REST API, tran
   
 
 🔷 3️⃣ Detailed Process
-✅ Step 1: Data Ingestion 
+  ✅ Step 1: Data Ingestion 
 Purpose:
 Securely access and retrieve raw data from an external REST API source.
 
