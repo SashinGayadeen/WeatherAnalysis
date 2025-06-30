@@ -5,10 +5,10 @@ This data pipeline outlines how data is ingested from an external REST API, tran
 
 
 🔷 2️⃣ High-Level Architecture
-+----------------+      +----------------------+      +------------------+      +----------------+
-|   REST API     | ---> |   Fabric Notebook    | ---> | Lakehouse/Table  | ---> |   Power BI     |
-|  (Source Data) |      | (Extract & Transform)|      | (Load)           |      | (Reports & Viz)|
-+----------------+      +----------------------+      +------------------+      +----------------+
+           
+  REST API      --->   Fabric Notebook    --->  Lakehouse/Table  --->   Power BI     
+ (Source Data)       (Extract & Transform)       (Load)               (Reports & Viz)
+  
 
 🔷 3️⃣ Detailed Process
 ✅ Step 1: Data Ingestion 
